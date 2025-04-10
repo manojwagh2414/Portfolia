@@ -1,3 +1,8 @@
+@font-face {
+    font-family: montserrat thin;
+    src: url("AnyConv.com__JTUSjIg1_i6t8kCHKm459Wlhyw.woff");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +16,7 @@ html,body{
     height: 100%;
     width: 100%;
     /* background-color: black; */
-    background-image: url("Solid.jpg");
+    background-image: url("Solid.webp");
     background-size: cover;
     background-position: center;
 }
@@ -91,7 +96,7 @@ color: #CF332B;
     width: 38%;
     background-color: red;
     border-radius: 50%;
-    background-image: url("mainp.jpg");
+    background-image: url("mainp.webp");
     background-position: center;
     background-size: 75%;
    }
@@ -99,7 +104,7 @@ color: #CF332B;
     height: 100%;
     width: 100%;
     /* background-color: aqua; */
-    background-image: url("back1.png");
+    background-image: url("back1.webp");
 }
 #about{
     height: 120px;
@@ -198,7 +203,7 @@ color: #CF332B;
     width: 30%;
     margin: 25px;
     /* background-color: rgb(223, 16, 192); */
-    background-image: url("section.jpg");
+    background-image: url("section.webp");
     background-position: center;
     background-size: 100%;
     border-radius: 20px;
@@ -246,7 +251,7 @@ color: #CF332B;
 #part01{
     height: 100%;
     width: 33%;
-    background-image: url("pro1.jpg");
+    background-image: url("pro1.webp");
     border-radius: 20px;
     background-size: 100%;
     background-position: center;
@@ -288,7 +293,7 @@ color: #CF332B;
 #part02{
     height: 100%;
     width: 35%;
-    background-image: url("pro2.jpg");
+    background-image: url("pro2.webp");
     background-size: 100%;
     background-position: center;
     border-radius: 20px;
@@ -301,7 +306,7 @@ color: #CF332B;
 #part03{
     height: 100%;
     width: 35%;
-    background-image: url("pro3.jpg");
+    background-image: url("pro3.webp");
     background-size: 100%;
     background-position: center;
     
@@ -388,14 +393,14 @@ color: #CF332B;
     border: 1px solid white;
     border-bottom-left-radius: 60%;
     border-top-left-radius: 50%;
-    background-image: url("getintouch.jpg");
+    background-image: url("getintouch.webp");
     background-position: center;
     background-size: 100%;
 }
 #elem{
     height: 60%;
     width: 100%;
-    background-image: url("bwallpaper.jpg");
+    background-image: url("bwallpaper.webp");
     display: flex;
 }
 #p1{
@@ -488,7 +493,7 @@ color: #CF332B;
 #page8{
     height: 100%;
     width: 100%;
-    background-image: url("foot.jpg");
+    background-image: url("foot.webp");
     
     background-position: center;
     background-size: 100%;
@@ -517,7 +522,7 @@ color: #CF332B;
     width: 80%;
     background-color: black;
     margin-left: 10%;
-    background-image: url("key.jpg");
+    background-image: url("key.webp");
     background-position: center;
     background-size: 100%;
 }
