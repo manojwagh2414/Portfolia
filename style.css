@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    background-image: url("Solid.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#logo{
+    height: 70px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4vw;
+    padding-left: 20px;
+    
+}
+#hire{
+    margin-left: 300px;
+    border: 1px solid black;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #CF332B;
+    font-family: "canopee";
+}
+#logo a{
+    padding-left: 20px;
+    font-weight: 200;
+    font-size: 17px;
+    font-family: "montserrat thin";
+    color: white;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 2px;
+    
+}
+#logo a:hover{
+    border-bottom: 1px solid red;
+    color: cornsilk;
+}
+#logo img{
+    height: 100px;
+    padding-top: 15px;
+    border-radius: 2px;
+}
+#hero{
+    height: 87%;
+    width: 100%;
+    /* background-color: greenyellow; */
+    display: flex;
+}
+
+#left-part{
+ height: 100%;
+ width: 50%;
+ /* background-color: #700bf4; */
+ padding-top: 120px;
+ padding-left: 30px;
+ font-size: 35px;
+color: #CF332B;
+}
+#left-part h1{
+    color: #d5eb0c;
+    /* font-family: montserrat thin; */
+}
+#left-part span{
+    font-family: canopee;
+    font-weight: 500;
+    font-size: 100px;
+    color: #34a98c;
+}
+#left-part p{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: montserrat;
+    color: azure;
+}
+#right-part{
+    height: 100%;
+    width: 38%;
+    background-color: red;
+    border-radius: 50%;
+    background-image: url("mainp.jpg");
+    background-position: center;
+    background-size: 75%;
+   }
+#page2{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url("back1.png");
+}
+#about{
+    height: 120px;
+    width: 100%;
+    /* background-color: blue; */
+    border-bottom: 1px solid white;
+}
+#about h2{
+    margin-left: 44%;
+    font-size: 45px;
+    font-family: "montserrat thin";
+    /* color: white; */
+    letter-spacing: 2px;
+    color: white;
+}
+#about p{
+    margin-left:22%;
+    font-size: 21px;
+    color: white;
+}
+#intro{
+    height: 79%;
+    width: 90%;
+    /* background-color: brown; */
+    margin-left: 5%;
+    margin-right: 5%;
+    /* margin-top: 20px; */
+    display: flex;
+    color: white;
+}
+#part1{
+    height: 100%;
+    width: 33%;
+    /* background-color: rgb(59, 215, 23); */
+}
+#part1 h3{
+    font-family: "Editorial New Light";
+    font-size: 27px;
+    letter-spacing: 1px;
+    padding: 20px 30px;
+    border-bottom: 1px solid red;
+    color: white;
+}
+#part1 p{
+    padding: 10px 25px;
+    font-size: 20px;
+    color: rgb(197, 191, 191);
+}
+#see{
+    height: 20px;
+    width: 20px;
+    background-color:red;
+    margin-left: 110px;
+    padding: 8px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+}
+#button{
+    margin: 104px;
+    background-color: #CF332B;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 1px soli crimson;
+    color: white;
+    border-radius: 5px;
+}
+#button:hover{
+    background-color: #0ab08f;
+}
+#part2{
+    height: 100%;
+    width: 35%;
+    /* background-color: rgb(17, 66, 225); */
+}
+#part2 p{
+    padding: 120px 25px;
+    font-size: 20px;
+    color: rgb(195, 173, 173);
+}
+#see{
+    height: 20px;
+    width: 20px;
+    background-color:red;
+    margin-left: 110px;
+    padding: 8px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+}
+#see:hover{
+    background-color: #0ab08f;
+}
+#part3{
+    height: 90%;
+    width: 30%;
+    margin: 25px;
+    /* background-color: rgb(223, 16, 192); */
+    background-image: url("section.jpg");
+    background-position: center;
+    background-size: 100%;
+    border-radius: 20px;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+  
+    background-image: url("black-low.jpg");
+    background-position: center;
+    background-size: 100%;
+    
+}
+#about1{
+    height: 120px;
+    width: 100%;
+    /* background-color: blue; */
+    border-bottom: 1px solid white;
+  
+}
+#about1 h2{
+    margin-left: 38%;
+    font-size: 45px;
+    font-family: "montserrat thin";
+    /* color: white; */
+    letter-spacing: 2px;
+    color: white;
+}
+#about1 p{
+    margin-left:34%;
+    font-size: 21px;
+    color: white;
+}
+#intro1{
+    height: 79%;
+    width: 90%;
+    /* background-color: brown; */
+    margin-left: 5%;
+    margin-right: 5%;
+    /* margin-top: 20px; */
+    display: flex;
+    color: white;
+    gap: 4vw;
+}
+#part01{
+    height: 100%;
+    width: 33%;
+    background-image: url("pro1.jpg");
+    border-radius: 20px;
+    background-size: 100%;
+    background-position: center;
+    opacity: 0.8;
+}
+#part01 h2{
+    padding: 15px;
+    padding-left: 20%;
+    color: #d5eb0c;
+    /* font-family: kajiro; */
+    font-size: 30px;
+}
+#part01 h3{
+    font-family: "Editorial New Light";
+    font-size: 27px;
+    letter-spacing: 1px;
+    padding: 20px 30px;
+    border-bottom: 1px solid red;
+    color: white;
+}
+#part01 p{
+    padding: 10px 25px;
+    font-size: 20px;
+    color: rgb(255, 251, 251);
+}
+#part01 img{
+    height: 152px;
+    /* width: 100%; */
+    background-position: center;
+    scale:.9;
+    border-radius: 20px;
+    position: relative;
+    
+}
+#part01 img:hover{
+    scale: 1;
+    
+}
+#part02{
+    height: 100%;
+    width: 35%;
+    background-image: url("pro2.jpg");
+    background-size: 100%;
+    background-position: center;
+    border-radius: 20px;
+}
+#part02 p{
+    padding: 25px;
+    font-size: 20px;
+    color: rgb(3, 0, 0);
+}
+#part03{
+    height: 100%;
+    width: 35%;
+    background-image: url("pro3.jpg");
+    background-size: 100%;
+    background-position: center;
+    
+    border-radius: 20px;
+}
+#part02 img{
+    scale:.85;
+        height: 162px;
+        /* width: 100%; */
+        background-position: center;
+        /* background-size: 100%; */
+        border-radius: 20px;
+        position: relative;
+}
+#part02 img:hover{
+    scale: 1;
+    
+}
+#part02 h2{
+    padding: 15px;
+    padding-left: 20%;
+    color: #713c55;;
+    /* font-family: kajiro; */
+    font-size: 30px;
+}
+#part03 img{
+    height: 162px;
+    scale:.85;
+    background-position: center;
+    /* background-size: 100%; */
+    border-radius: 20px;
+    position: relative;
+}
+#part03 img:hover{
+    scale: 1;
+    
+}
+#part03 p{
+    padding: 10px 25px;
+    font-size: 20px;
+    color: rgb(94, 91, 86);
+}
+#part03 h2{
+    padding: 15px;
+    padding-left: 20%;
+    color: #0ab08f;
+    /* font-family: kajiro; */
+    font-size: 30px;
+}
+/* Contact Me Code */
+#main2{
+    height: 100%;
+    width: 100%;
+    background-color: #0ab08f;
+}
+#intro11{
+    height: 40%;
+    width: 100%;
+    background-color: #3E5A74;
+    display: flex;
+}
+#righ{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+}
+#righ h1{
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 50px;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#righ p{
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#lef{
+    height: 100%;
+    width: 50%;
+    border: 1px solid white;
+    border-bottom-left-radius: 60%;
+    border-top-left-radius: 50%;
+    background-image: url("getintouch.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+#elem{
+    height: 60%;
+    width: 100%;
+    background-image: url("bwallpaper.jpg");
+    display: flex;
+}
+#p1{
+    height: 100%;
+    width: 34%;
+    /* background-color: #0ab08f; */
+}
+#p1 img{
+    background-size: 100%;
+    height: 150px;
+    padding: 30px 140px;
+}
+#p2{
+    height: 100%;
+    width: 33%;
+    /* background-color: #e3ab10; */
+}
+#p2 img{
+    background-size: 100%;
+    height: 150px;
+    padding: 30px 140px;
+}
+#p3{
+    height: 100%;
+    width: 34%;
+    /* background-color: #f50ef5; */
+}
+#p3 img{
+    background-size: 100%;
+    height: 150px;
+    padding: 30px 140px;
+}
+#box1{
+    margin-left: 3%;
+    height: 190px;
+    width: 400px;
+    /* background-color: #CF332B; */
+    text-align: center;
+}
+#box1 a{
+    text-decoration: none;
+    font-family: montserrat thin;
+    font-size: 40px;
+    color: white;
+    
+}
+#box2{
+    margin-left: 1.6%;
+    height: 190px;
+    width: 400px;
+    text-align: center;
+    /* background-color: #CF332B; */
+}
+#box2 a{
+    text-decoration: none;
+    font-family: montserrat thin;
+    font-size: 40px;
+    color: white;
+}
+#box3{
+    margin-left: 3%;
+    height: 190px;
+    width: 400px;
+    /* background-color: #CF332B; */
+}
+#box3 a{
+    text-decoration: none;
+    font-family: montserrat thin;
+    font-size: 40px;
+    color: white;
+}
+#bpage {
+    margin-left: 25px;
+    padding: 0px 30px;
+    border: 1px solid coral;
+    font-size: 20px;
+    background-color:coral;
+    border-radius: 10px;
+}
+#page6{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+#page7{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+#page8{
+    height: 100%;
+    width: 100%;
+    background-image: url("foot.jpg");
+    
+    background-position: center;
+    background-size: 100%;
+    /* background-color: red; */
+}
+#Education{
+    
+        height: 120px;
+        width: 100%;
+        /* background-color: blue; */
+        border-bottom: 1px solid white;
+
+}
+#footer{
+    margin-top: 10px;
+    padding-left: 34%;
+    font-size: 30px;
+    font-family: "montserrat thin";
+    /* color: white; */
+    letter-spacing: 2px;
+    color: white;
+   
+}
+#ALL{
+    height: 50%;
+    width: 80%;
+    background-color: black;
+    margin-left: 10%;
+    background-image: url("key.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+#ALL h2{
+    padding: 30px 50px;
+    word-spacing: 3px;
+    color: aliceblue;
+    font-family: montserrat thin;
+}
+#th{
+    color: #eba6a9;
+    font-size: 150px;
+    padding-left: 24%;
+}
+#con{
+    margin-top: 60px;
+    margin: 40%;
+    background-color: #CF332B;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 1px soli crimson;
+    color: white;
+    border-radius: 5px;
+  
+}
+#con:hover{
+    background-color: #0ab08f;
+}
